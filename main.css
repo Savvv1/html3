@@ -1,0 +1,74 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{ 
+	background: url("tech.bkg.jpg") no repeat;
+	background-size: cover;
+}
+
+#container{
+	width:900px;
+	margin: 0 auto;
+}
+
+header{ 
+	width:100%;
+	height: 100px;
+}
+
+header h1 {
+	font-size: 55px;
+	font-family: 'Share Tech Mono', monospace;
+	font-weight: 300;
+	font-style: normal;
+	text-align: center;
+}
+
+nav{
+	width:100%;
+	text-align: center;
+}
+
+nav ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li{
+	display: inline;
+}
+
+footer{
+	text-align: center;
+	clear: both;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif"
+}
+
+nav a:visted{
+	
+}
+
+nav a:active {
+	text-decoration: underline;
+}
+
+.left{
+	width:300px;
+	float: left;
+	margin-left: 80px;
+	margin-top: 30px;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif"
+}
+
+.center{
+	width:.50px;
+	float: center;
+	margin-left: 10px;
+	margin-right: 150px;
+	
+
+
+
+
+}
